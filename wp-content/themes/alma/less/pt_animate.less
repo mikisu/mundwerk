@@ -1,0 +1,156 @@
+@charset "UTF-8";
+// ——————————————————————————————————————————————————————————————————————————————————————————
+
+
+@-webkit-keyframes catIn {
+  0% {
+    -webkit-transform: scale(1.3);
+    transform: perspective(200px) rotateX(5deg) scale(2) translate(0px, 20px); 
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px); 
+    } 
+  }
+
+
+@keyframes catIn {
+  0% {
+    -moz-transform: perspective(200px) rotateX(5deg) scale(1.5) translate(0px, 20px);
+    -ms-transform: perspective(200px) rotateX(5deg) scale(1.5) translate(0px, 20px);
+    -o-transform: perspective(200px) rotateX(5deg) scale(1.5) translate(0px, 20px);
+    transform: perspective(200px) rotateX(5deg) scale(1.5) translate(0px, 20px); 
+  }
+
+  100% {
+    -moz-transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px);
+    -ms-transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px);
+    -o-transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px);
+    transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px); 
+    } 
+  }
+
+
+.pt_CatAnimeIn {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+
+  -webkit-animation-name: catIn;
+  animation-name: catIn;
+  .animation-timing-function(@easeOutBack); 
+  .animation-duration(0.7s);
+
+}
+
+
+// ——————————————————————————————————————————————————————————————————————————————————————————
+
+@-webkit-keyframes catOut {
+  0% {
+    opacity: 1;
+     visibility: visible;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes catOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    visibility: hidden;
+  }
+}
+
+.pt_CatAnimeOut {
+   -webkit-animation-name: catOut;
+   animation-name: catOut;
+}
+
+
+// ——————————————————————————————————————————————————————————————————————————————————————————
+
+
+@-webkit-keyframes pt_fadeOut_hiddenOnEnd {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes pt_fadeOut_hiddenOnEnd {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+.pt_hiddenOnEnd {
+   .anime(hiddenOnEnd 0.8s forwards  ); 
+}
+
+// ——————————————————————————————————————————————————————————————————————————————————————————
+
+@keyframes loadbars {
+  0%{
+    margin-top: 0px;
+    height: 5px;
+  }
+  50%{
+    margin-top: -12px;
+    height: 24px;
+  }
+  100%{
+    margin-top: 0px;
+    height: 5px;
+  }
+}
+
+@-webkit-keyframes loadbars {
+  0%{
+    margin-top: 0px;
+    height: 5px;
+  }
+  50%{
+    margin-top: -12px;
+    height: 24px;
+  }
+  100%{
+    margin-top: 0px;
+    height: 5px;
+  }
+}
+
+
+
+

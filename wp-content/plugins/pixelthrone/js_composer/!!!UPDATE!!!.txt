@@ -1,0 +1,16 @@
+/* EDITED FILES */
+
+js_composer\composer\lib\build.php
+js_composer\composer\lib\composer.php
+js_composer\composer\lib\layouts.php
+
+js_composer\composer\shortcodes_templates\vc_accordion.php
+js_composer\composer\shortcodes_templates\vc_accordion_tab.php
+js_composer\composer\shortcodes_templates\vc_column.php
+js_composer\composer\shortcodes_templates\vc_row.php
+js_composer\composer\shortcodes_templates\vc_tab.php
+js_composer\composer\shortcodes_templates\vc_tabs.php
+
+js_composer\assets\js\backend\composer-custom-views.js
+js_composer\assets\js\jquery.vc_chart.js
+

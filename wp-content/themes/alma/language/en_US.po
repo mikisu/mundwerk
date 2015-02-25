@@ -1,0 +1,741 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alma v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-28 15:02-0000\n"
+"PO-Revision-Date: 2014-05-16 15:59:12+0000\n"
+"Last-Translator: Pixelthrone <support@pixelthrone.com>\n"
+"Language-Team: Pixelthrone <support@pixelthrone.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:159
+#@ pt_framework
+msgid "Comments (0)"
+msgstr ""
+
+#: comments.php:159
+#@ pt_framework
+msgid "Comment (1)"
+msgstr ""
+
+#: comments.php:159
+#@ pt_framework
+msgid "Comments (%)"
+msgstr ""
+
+#: comments.php:162
+#@ pt_framework
+msgid "Reply"
+msgstr ""
+
+#: comments.php:162
+#@ pt_framework
+msgid "Log in to Reply"
+msgstr ""
+
+#: comments.php:175
+#@ pt_framework
+msgid "Comments are closed."
+msgstr ""
+
+#: index.php:227
+#: page.php:38
+#: search.php:75
+#: single-portfolio.php:65
+#: single.php:238
+#: template-portfolio.php:268
+#@ pt_framework
+msgid "It seems we can't find what you're looking for..."
+msgstr ""
+
+#: comments.php:140
+#: comments.php:141
+#@ pt_framework
+msgid "Name"
+msgstr ""
+
+#: comments.php:143
+#: comments.php:144
+#@ pt_framework
+msgid "Email"
+msgstr ""
+
+#: comments.php:145
+#: comments.php:146
+#@ pt_framework
+msgid "Website"
+msgstr ""
+
+#: comments.php:120
+#, php-format
+#@ pt_framework
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:122
+#, php-format
+#@ default
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:21
+#@ pt_framework
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:21
+#: comments.php:74
+#@ pt_framework
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:60
+#@ pt_framework
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1293
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: comments.php:38
+#@ pt_framework
+msgid "Log in to leave a comment"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:155
+#: functions.php:494
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:156
+#: functions.php:495
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:157
+#: functions.php:496
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:158
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:159
+#: functions.php:498
+#, php-format
+#@ pt_framework
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:160
+#: functions.php:499
+#, php-format
+#@ pt_framework
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:161
+#: functions.php:500
+#, php-format
+#@ pt_framework
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:162
+#: functions.php:501
+#, php-format
+#@ pt_framework
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:163
+#: functions.php:502
+#, php-format
+#@ pt_framework
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#: functions.php:503
+#, php-format
+#@ pt_framework
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#: functions.php:504
+#, php-format
+#@ pt_framework
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#: functions.php:505
+#, php-format
+#@ pt_framework
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:167
+#: functions.php:506
+#@ pt_framework
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:168
+#@ pt_framework
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#: functions.php:508
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1840
+#: functions.php:509
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1085
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1090
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1093
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1097
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1105
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1275
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1291
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1292
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1294
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1312
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1313
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1538
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1823
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1824
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1825
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1826
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1827
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1828
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1839
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1949
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1951
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1952
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1960
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:1961
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/lib/class-tgm-plugin-activation/class-tgm-plugin-activation.php:2052
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: index.php:163
+#@ pt_framework
+msgid "Join the<br>discussion"
+msgstr ""
+
+#: index.php:226
+#: search.php:74
+#: single.php:237
+#: template-portfolio.php:267
+#@ pt_framework
+msgid "Not Found"
+msgstr ""
+
+#: comments.php:110
+#@ pt_framework
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:112
+#, php-format
+#@ pt_framework
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:114
+#@ pt_framework
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:116
+#@ pt_framework
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:118
+#: comments.php:141
+#: comments.php:144
+#@ pt_framework
+msgid "(required)"
+msgstr ""
+
+#: comments.php:124
+#@ pt_framework
+msgid "Your email address will not be published. Required fields are marked"
+msgstr ""
+
+#: framework/helpers.php:53
+#@ pt_framework
+msgid "Around"
+msgstr ""
+
+#: framework/helpers.php:55
+#@ pt_framework
+msgid "to read"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: framework/lib/custom-menu/edit_custom_walker.php:80
+#, php-format
+#@ pt_admin_framework
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: framework/lib/custom-menu/edit_custom_walker.php:84
+#, php-format
+#@ pt_admin_framework
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:111
+#@ default
+msgid "Move up"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:124
+#@ default
+msgid "Move down"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:126
+#: framework/lib/custom-menu/edit_custom_walker.php:128
+#@ default
+#@ pt_admin_framework
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:137
+#@ pt_admin_framework
+msgid "URL"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:144
+#@ pt_admin_framework
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:150
+#@ pt_admin_framework
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:157
+#@ pt_admin_framework
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:162
+#@ pt_admin_framework
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:168
+#@ pt_admin_framework
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:174
+#@ pt_admin_framework
+msgid "Description"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:176
+#@ pt_admin_framework
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:187
+#@ pt_admin_framework
+msgid "External link"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:188
+#@ pt_admin_framework
+msgid "Open this link outside the one page context (force refresh)."
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:199
+#, php-format
+#@ pt_admin_framework
+msgid "Original: %s"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:212
+#@ pt_admin_framework
+msgid "Remove"
+msgstr ""
+
+#: framework/lib/custom-menu/edit_custom_walker.php:213
+#@ pt_admin_framework
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:59
+#@ pt_admin_framework
+msgid "Header Navigation"
+msgstr ""
+
+#: functions.php:237
+#@ pt_framework
+msgid "Back"
+msgstr ""
+
+#: functions.php:238
+#@ pt_framework
+msgid "Weeks"
+msgstr ""
+
+#: functions.php:239
+#@ pt_framework
+msgid "Days"
+msgstr ""
+
+#: functions.php:240
+#@ pt_framework
+msgid "Hours"
+msgstr ""
+
+#: functions.php:241
+#@ pt_framework
+msgid "Minutes"
+msgstr ""
+
+#: functions.php:242
+#@ pt_framework
+msgid "Seconds"
+msgstr ""
+
+#: single.php:112
+#@ pt_framework
+msgid "Posted on"
+msgstr ""
+
+#: single.php:156
+#, php-format
+#@ pt_framework
+msgid "View all<br>%d posts"
+msgstr ""
+
+#: single.php:254
+#@ pt_framework
+msgid "read previous"
+msgstr ""
+
+#: functions.php:524
+#@ pt_framework
+msgid "Read More"
+msgstr ""
+
+#: single.php:141
+#@ pt_pixelthrone
+msgid "Categories:"
+msgstr ""
+
+#: template-portfolio.php:161
+#: template-portfolio.php:164
+#@ pt_framework
+msgid "All Categories"
+msgstr ""
+
+#: comments.php:118
+#@ pt_framework
+msgid "Comment"
+msgstr ""
+
+#: comments.php:130
+#@ default
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> <br>tags and attributes:"
+msgstr ""
+
+#: comments.php:133
+#, php-format
+#@ default
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s<br>"
+msgstr ""
+
+#: header.php:47
+#@ pt_framework
+msgid "type to search..."
+msgstr ""
+
+#: 404.php:6
+#@ pt_framework
+msgid "PAGE YOU ARE LOOKING IS NOT FOUND"
+msgstr ""
+
+#: 404.php:7
+#@ pt_framework
+msgid "The page you are looking for does not exist. It may have been moved, or removed altogether. Perhaps you can return back to the site’s homepage and see if you can find what you are looking for."
+msgstr ""
+
+#: functions.php:250
+#@ pt_framework
+msgid "ON"
+msgstr ""
+
+#: functions.php:251
+#@ pt_framework
+msgid "OFF"
+msgstr ""
+
+#: functions.php:252
+#@ pt_framework
+msgid "SOUND"
+msgstr ""
+
+#: functions.php:497
+#@ tgmpa
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:507
+#@ pt_framework
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:510
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: search.php:26
+#@ pt_framework
+msgid "Search Results for"
+msgstr ""
+
+#: template-portfolio.php:255
+#@ pt_framework
+msgid "Load more"
+msgstr ""
+

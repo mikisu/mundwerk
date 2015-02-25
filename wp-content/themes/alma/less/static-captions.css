@@ -1,0 +1,105 @@
+.tp-bullets.simplebullets.round .bullet {
+	background: none;
+	font-family: "Ionicons";
+	font-size: 14px;
+	color: white;
+	margin: 0 4px;
+	width: 14px;
+	height: 14px;
+	line-height: 12px;
+	text-align: center;
+}
+
+.tp-bullets.simplebullets.round .bullet:before {
+	content: '\f21b';
+}
+
+.tp-bullets.simplebullets.round .bullet.selected:before {
+	content: '\f29c';
+}
+
+.tp-bullets.simplebullets .bullet:hover:before {
+	content: '\f29c';
+}
+
+.tp-bullets.simplebullets.round .bullet.selected:hover {
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	animation: none; 
+}
+
+.tp-bullets.simplebullets.round .bullet.selected {
+	-webkit-animation: sspin 1s infinite linear;
+	-moz-animation: sspin 1s infinite linear;
+	-o-animation: sspin 1s infinite linear;
+	animation: sspin 1s infinite linear; 
+}
+
+.tparrows.default {
+	font-family: "Ionicons";
+	font-size: 45px;
+	color: white;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.tparrows.hidearrows {
+	opacity: 0;
+	filter: alpha(opacity=50);
+}
+
+.tparrows.default:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.tp-leftarrow.default:before {
+	content: '\f27f';
+}
+
+.tp-rightarrow.default:before {
+	content: '\f280';
+}
+
+.tp-leftarrow.default, .tp-rightarrow.default {
+	background: none;
+	width: auto;
+	height: auto;
+}
+
+
+@-moz-keyframes sspin {
+  0% {
+    -moz-transform: rotate(0deg); }
+
+  100% {
+    -moz-transform: rotate(359deg); } }
+
+@-webkit-keyframes sspin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(359deg); } }
+
+@-o-keyframes sspin {
+  0% {
+    -o-transform: rotate(0deg); }
+
+  100% {
+    -o-transform: rotate(359deg); } }
+
+@-ms-keyframes sspin {
+  0% {
+    -ms-transform: rotate(0deg); }
+
+  100% {
+    -ms-transform: rotate(359deg); } }
+
+@keyframes sspin {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(359deg); } }

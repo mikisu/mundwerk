@@ -1,0 +1,15 @@
+{
+  "css": [
+    "buttons.less",
+    "glyphicons.less",
+    "dropdowns.less",
+    "tooltip.less",
+    "popovers.less",
+    "component-animations.less"
+  ],
+  "js": [
+    "tooltip.js",
+    "popover.js",
+    "transition.js"
+  ]
+}

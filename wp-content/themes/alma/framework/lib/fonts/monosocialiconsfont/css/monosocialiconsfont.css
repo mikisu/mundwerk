@@ -1,0 +1,429 @@
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  src: url('../font/MonoSocialIconsFont-1.10.eot');
+  src: url('../font/MonoSocialIconsFont-1.10.eot#iefix') format('embedded-opentype'),
+       url('../font/MonoSocialIconsFont-1.10.woff') format('woff'),
+       url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+       url('../font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="monosocial-"]:before, [class*=" monosocial-"]:before {
+  font-family: 'Mono Social Icons Font';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 100%;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 100%;
+}
+
+
+.monosocial-facebook:before { content: '\e8cb'; }
+.monosocial-circlefacebook:before { content: '\e833'; } 
+.monosocial-roundedfacebook:before { content: '\e813'; }
+
+.monosocial-twitterbird:before { content: '\e87e'; }
+.monosocial-circletwitterbird:before { content: '\e913'; }
+.monosocial-roundedtwitterbird:before { content: '\e912'; }
+
+.monosocial-twitter:before { content: '\e8ce'; }
+.monosocial-circletwitter:before { content: '\e846'; }
+.monosocial-roundedtwitter:before { content: '\e82c'; }
+
+.monosocial-pinterest:before { content: '\e8bb'; }
+.monosocial-circlepinterest:before { content: '\e80d'; }
+.monosocial-roundedpinterest:before { content: '\e80b'; }
+
+.monosocial-linkedin:before { content: '\e8c1'; }
+.monosocial-circlelinkedin:before { content: '\e83d'; }
+.monosocial-roundedlinkedin:before { content: '\e81f'; }
+
+.monosocial-stackoverflow:before { content: '\e853'; }
+.monosocial-circlestackoverflow:before { content: '\e908'; }
+.monosocial-roundedstackoverflow:before { content: '\e906'; }
+
+.monosocial-aol:before { content: '\e904'; }
+.monosocial-circleaol:before { content: '\e8bc'; }
+.monosocial-roundedaol:before { content: '\e896'; }
+
+.monosocial-fivehundredpx:before { content: '\e85a'; }
+.monosocial-circlefivehundredpx:before { content: '\e909'; }
+.monosocial-roundedfivehundredpx:before { content: '\e907'; }
+
+.monosocial-foodspotting:before { content: '\e869'; }
+.monosocial-roundedfoodspotting:before { content: '\e90a'; }
+.monosocial-circlefoodspotting:before { content: '\e90d'; }
+
+.monosocial-appstorealt:before { content: '\e886'; }
+.monosocial-circleappstorealt:before { content: '\e91e'; }
+.monosocial-roundedappstorealt:before { content: '\e90b'; }
+
+.monosocial-friendsfeed:before { content: '\e88c'; }
+.monosocial-circlefriendsfeed:before { content: '\e917'; }
+.monosocial-roundedfriendsfeed:before { content: '\e90c'; }
+
+.monosocial-grooveshark:before { content: '\e885'; }
+.monosocial-circlegrooveshark:before { content: '\e924'; }
+.monosocial-roundedgrooveshark:before { content: '\e90e'; }
+
+.monosocial-photobucket:before { content: '\e87a'; }
+.monosocial-circlephotobucket:before { content: '\e916'; }
+.monosocial-roundedphotobucket:before { content: '\e90f'; }
+
+.monosocial-designfloat:before { content: '\e88d'; }
+.monosocial-circledesignfloat:before { content: '\e919'; }
+.monosocial-roundeddesignfloat:before { content: '\e910'; }
+
+.monosocial-stumbleupon:before { content: '\e882'; }
+.monosocial-circlestumbleupon { content: '\e914'; }
+.monosocial-roundedstumbleupon:before { content: '\e911'; }
+
+.monosocial-friendstar:before { content: '\e897'; }
+.monosocial-circlefriendstar:before { content: '\e805'; }
+.monosocial-roundedfriendstar:before { content: '\e915'; }
+
+.monosocial-feedburner:before { content: '\e8ae'; }
+.monosocial-circlefeedburner:before { content: '\e808'; }
+.monosocial-roundedfeedburner:before { content: '\e918'; }
+
+.monosocial-googletalk:before { content: '\e8a4'; }
+.monosocial-circlegoogletalk:before { content: '\e803'; }
+.monosocial-roundedgoogletalk:before { content: '\e91a'; }
+
+.monosocial-slideshare:before { content: '\e8af'; }
+.monosocial-circleslideshare:before { content: '\e801'; }
+.monosocial-roundedslideshare:before { content: '\e91b'; }
+
+.monosocial-gowallapin:before { content: '\e8a9'; }
+.monosocial-circlegowallapin:before { content: '\e927'; }
+.monosocial-roundedgowallapin:before { content: '\e91c'; }
+
+.monosocial-deviantart:before { content: '\e89e'; }
+.monosocial-circledeviantart:before { content: '\e809'; }
+.monosocial-roundeddeviantart:before { content: '\e91d'; }
+
+.monosocial-soundcloud:before { content: '\e8ab'; }
+.monosocial-circlesoundcloud:before { content: '\e800'; }
+.monosocial-roundedsoundcloud:before { content: '\e91f'; }
+
+.monosocial-designbump:before { content: '\e8a5'; }
+.monosocial-circledesignbump:before { content: '\e80a'; }
+.monosocial-roundeddesignbump:before { content: '\e920'; }
+
+.monosocial-googlebuzz:before { content: '\e89c'; }
+.monosocial-circlegooglebuzz:before { content: '\e804'; }
+.monosocial-roundedgooglebuzz:before { content: '\e921'; }
+
+.monosocial-technorati:before { content: '\e8a2'; }
+.monosocial-circletechnorati:before { content: '\e92c'; }
+.monosocial-roundedtechnorati:before { content: '\e922'; }
+
+.monosocial-foursquare:before { content: '\e8a0'; }
+.monosocial-circlefoursquare:before { content: '\e806'; }
+.monosocial-roundedfoursquare:before { content: '\e923'; }
+
+.monosocial-googleplus:before { content: '\e8a8'; }
+.monosocial-circlegoogleplus:before { content: '\e926'; }
+.monosocial-roundedgoogleplus:before { content: '\e925'; }
+
+.monosocial-instagram:before { content: '\e8b9'; }
+.monosocial-circleinstagram:before { content: '\e80e'; }
+.monosocial-roundedinstagram:before { content: '\e928'; }
+
+.monosocial-yahoobuzz:before { content: '\e8b3'; }
+.monosocial-circleyahoobuzz:before { content: '\e810'; }
+.monosocial-roundedyahoobuzz:before { content: '\e929'; }
+
+.monosocial-delicious:before { content: '\e8b6'; }
+.monosocial-circledelicious:before { content: '\e817'; }
+.monosocial-roundeddelicious:before { content: '\e92a'; }
+
+.monosocial-wordpress:before { content: '\e8b2'; }
+.monosocial-circlewordpress:before { content: '\e811'; }
+.monosocial-roundedwordpress:before { content: '\e92b'; }
+
+.monosocial-wikipedia:before { content: '\e8c0'; }
+.monosocial-circlewikipedia:before { content: '\e812'; }
+.monosocial-roundedwikipedia:before { content: '\e92d'; }
+ 
+.monosocial-githubalt:before { content: '\e8b5'; }
+.monosocial-circlegithubalt:before { content: '\e80f'; }
+.monosocial-roundedgithubalt:before { content: '\e802'; }
+
+.monosocial-posterous:before { content: '\e8bd'; }
+.monosocial-circleposterous:before { content: '\e81a'; }
+.monosocial-roundedposterous:before { content: '\e807'; }
+
+.monosocial-sharethis:before { content: '\e8b7'; }
+.monosocial-circlesharethis:before { content: '\e818'; }
+.monosocial-roundedsharethis:before { content: '\e80c'; }
+
+.monosocial-emberapp:before { content: '\e8c2'; }
+.monosocial-circleemberapp:before { content: '\e831'; }
+.monosocial-roundedemberapp:before { content: '\e814'; }
+
+.monosocial-coroflot:before { content: '\e8cc'; }
+.monosocial-circlecoroflot:before { content: '\e82d'; }
+.monosocial-roundedcoroflot:before { content: '\e815'; }
+
+.monosocial-appstore:before { content: '\e8ca'; }
+.monosocial-circleappstore:before { content: '\e830'; }
+.monosocial-roundedappstore:before { content: '\e816'; }
+
+.monosocial-slashdot:before { content: '\e8c3'; }
+.monosocial-circleslashdot:before { content: '\e835'; }
+.monosocial-roundedslashdot:before { content: '\e819'; }
+
+.monosocial-icondock:before { content: '\e8c4'; }
+.monosocial-circleicondock:before { content: '\e838'; }
+.monosocial-roundedicondock:before { content: '\e81b'; }
+
+.monosocial-identica:before { content: '\e8c5'; }
+.monosocial-circleidentica:before { content: '\e839'; }
+.monosocial-roundedidentica:before { content: '\e81c'; }
+
+.monosocial-newsvine:before { content: '\e8c8'; }
+.monosocial-circlenewsvine:before { content: '\e837'; }
+.monosocial-roundednewsvine:before { content: '\e81d'; }
+
+.monosocial-imessage:before { content: '\e8c6'; }
+.monosocial-circleimessage:before { content: '\e83a'; }
+.monosocial-roundedimessage:before { content: '\e81e'; }
+
+.monosocial-metacafe:before { content: '\e8c9'; }
+.monosocial-circlemetacafe:before { content: '\e83c'; }
+.monosocial-roundedmetacafe:before { content: '\e820'; }
+
+.monosocial-mobileme:before { content: '\e8c7'; }
+.monosocial-circlemobileme:before { content: '\e83b'; }
+.monosocial-roundedmobileme:before { content: '\e821'; }
+
+.monosocial-aboutme:before { content: '\e8d3'; }
+.monosocial-circleaboutme:before { content: '\e858'; }
+.monosocial-roundedaboutme:before { content: '\e822'; }
+
+.monosocial-smugmug:before { content: '\e8d2'; }
+.monosocial-circlesmugmug:before { content: '\e84e'; }
+.monosocial-roundedsmugmug:before { content: '\e823'; }
+
+.monosocial-myspace:before { content: '\e8d6'; }
+.monosocial-circlemyspace:before { content: '\e857'; }
+.monosocial-roundedmyspace:before { content: '\e824'; }
+
+.monosocial-youtube:before { content: '\e8db'; }
+.monosocial-circleyoutube:before { content: '\e842'; }
+.monosocial-roundedyoutube:before { content: '\e825'; }
+
+.monosocial-dribble:before { content: '\e8d8'; }
+.monosocial-circledribble:before { content: '\e843'; }
+.monosocial-roundeddribble:before { content: '\e826'; }
+
+.monosocial-diggalt:before { content: '\e8cf'; }
+.monosocial-circlediggalt:before { content: '\e841'; }
+.monosocial-roundeddiggalt:before { content: '\e827'; }
+
+.monosocial-blogger:before { content: '\e8cd'; }
+.monosocial-circleblogger:before { content: '\e85b'; }
+.monosocial-roundedblogger:before { content: '\e828'; }
+
+.monosocial-gowalla:before { content: '\e8dc'; }
+.monosocial-circlegowalla:before { content: '\e856'; }
+.monosocial-roundedgowalla:before { content: '\e829'; }
+
+.monosocial-viddler:before { content: '\e8d4'; }
+.monosocial-circleviddler:before { content: '\e845'; }
+.monosocial-roundedviddler:before { content: '\e82a'; }
+ 
+.monosocial-behance:before { content: '\e8d9'; }
+.monosocial-circlebehance:before { content: '\e854'; }
+.monosocial-roundedbehance:before { content: '\e82b'; }
+ 
+.monosocial-retweet:before { content: '\e8d5'; }
+.monosocial-circleretweet:before { content: '\e851'; }
+.monosocial-roundedretweet:before { content: '\e82e'; }
+
+.monosocial-podcast:before { content: '\e8da'; }
+.monosocial-circlepodcast:before { content: '\e852'; }
+.monosocial-roundedpodcast:before { content: '\e82f'; }
+
+.monosocial-windows:before { content: '\e8d7'; }
+.monosocial-circlewindows:before { content: '\e844'; }
+.monosocial-roundedwindows:before { content: '\e832'; }
+
+.monosocial-squidoo:before { content: '\e8d0'; }
+.monosocial-circlesquidoo:before { content: '\e84c'; }
+.monosocial-roundedsquidoo:before { content: '\e834'; }
+
+.monosocial-spotify:before { content: '\e8d1'; }
+.monosocial-circlespotify:before { content: '\e84d'; }
+.monosocial-roundedspotify:before { content: '\e836'; }
+
+.monosocial-amazon:before { content: '\e8e7'; }
+.monosocial-circleamazon:before { content: '\e865'; }
+.monosocial-roundedamazon:before { content: '\e83e'; }
+
+.monosocial-meetup:before { content: '\e8e0'; }
+.monosocial-circlemeetup:before { content: '\e860'; }
+.monosocial-roundedmeetup:before { content: '\e83f'; }
+
+.monosocial-tumblr:before { content: '\e8de'; }
+.monosocial-circletumblr:before { content: '\e86e'; }
+.monosocial-roundedtumblr:before { content: '\e840'; }
+
+.monosocial-github:before { content: '\e8eb'; }
+.monosocial-circlegithub:before { content: '\e866'; }
+.monosocial-roundedgithub:before { content: '\e847'; }
+
+.monosocial-reddit:before { content: '\e8e8'; }
+.monosocial-circlereddit:before { content: '\e867'; }
+.monosocial-roundedreddit:before { content: '\e855'; }
+
+.monosocial-daytum:before { content: '\e8e5'; }
+.monosocial-circledaytum:before { content: '\e876'; }
+.monosocial-roundeddaytum:before { content: '\e848'; }
+
+.monosocial-lastfm:before { content: '\e8e2'; }
+.monosocial-circlelastfm:before { content: '\e872'; }
+.monosocial-roundedlastfm:before { content: '\e849'; }
+
+.monosocial-scribd:before { content: '\e8e9'; }
+.monosocial-circlescribd:before { content: '\e868'; }
+.monosocial-roundedscribd:before { content: '\e84a'; }
+
+.monosocial-itunes:before { content: '\e8e3'; }
+.monosocial-circleitunes:before { content: '\e86b'; }
+.monosocial-roundeditunes:before { content: '\e84b'; }
+
+.monosocial-picasa:before { content: '\e8dd'; }
+.monosocial-circlepicasa:before { content: '\e864'; }
+.monosocial-roundedpicasa:before { content: '\e84f'; }
+
+.monosocial-forrst:before { content: '\e8df'; }
+.monosocial-circleforrst:before { content: '\e86a'; }
+.monosocial-roundedforrst:before { content: '\e850'; }
+
+.monosocial-paypal:before { content: '\e8e1'; }
+.monosocial-circlepaypal:before { content: '\e863'; }
+.monosocial-roundedpaypal:before { content: '\e859'; }
+
+.monosocial-flickr:before { content: '\e8e4'; }
+.monosocial-circleflickr:before { content: '\e86d'; }
+.monosocial-roundedflickr:before { content: '\e85c'; }
+
+.monosocial-mrwong:before { content: '\e8ea'; }
+.monosocial-circlemrwong:before { content: '\e861'; }
+.monosocial-roundedmrwong:before { content: '\e85d'; }
+
+.monosocial-drupal:before { content: '\e8e6'; }
+.monosocial-circledrupal:before { content: '\e870'; }
+.monosocial-roundeddrupal:before { content: '\e85e'; }
+
+.monosocial-email:before { content: '\e8ec'; }
+.monosocial-circleemail:before { content: '\e87f'; }
+.monosocial-roundedemail:before { content: '\e85f'; }
+
+.monosocial-quora:before { content: '\e8f3'; }
+.monosocial-circlequora:before { content: '\e87b'; }
+.monosocial-roundedquora:before { content: '\e862'; }
+
+.monosocial-hyves:before { content: '\e8f4'; }
+.monosocial-circlehyves:before { content: '\e88e'; }
+.monosocial-roundedhyves:before { content: '\e86c'; }
+
+.monosocial-heart:before { content: '\e8f2'; }
+.monosocial-roundedheart:before { content: '\e893'; }
+.monosocial-roundedheart:before { content: '\e871'; }
+
+.monosocial-skype:before { content: '\e8f1'; }
+.monosocial-circleskype:before { content: '\e888'; }
+.monosocial-roundedskype:before { content: '\e873'; }
+
+.monosocial-vimeo:before { content: '\e8f0'; }
+.monosocial-circlevimeo:before { content: '\e881'; }
+.monosocial-roundedvimeo:before { content: '\e874'; }
+
+.monosocial-addme:before { content: '\e8ee'; }
+.monosocial-circleaddme:before { content: '\e880'; }
+.monosocial-roundedaddme:before { content: '\e875'; }
+
+.monosocial-apple:before { content: '\e8ed'; }
+.monosocial-circleapple:before { content: '\e88b'; }
+.monosocial-roundedapple:before { content: '\e877'; }
+
+.monosocial-yahoo:before { content: '\e8ef'; }
+.monosocial-circleyahoo:before { content: '\e878'; }
+.monosocial-roundedyahoo:before { content: '\e86f'; }
+
+.monosocial-ebay:before { content: '\e8f9'; }
+.monosocial-circleebay:before { content: '\e8b1'; }
+.monosocial-roundedebay:before { content: '\e879'; }
+
+.monosocial-digg:before { content: '\e8f8'; }
+.monosocial-circledigg:before { content: '\e898'; }
+.monosocial-roundeddigg:before { content: '\e87c'; }
+
+.monosocial-mixx:before { content: '\e8fa'; }
+.monosocial-circlemixx:before { content: '\e8b0'; }
+.monosocial-roundedmixx:before { content: '\e87d'; }
+
+.monosocial-star:before { content: '\e8fc'; }
+.monosocial-circlestar:before { content: '\e8a1'; }
+.monosocial-roundedstar:before { content: '\e883'; }
+
+.monosocial-gdgt:before { content: '\e8fb'; }
+.monosocial-circlegdgt:before { content: '\e8a7'; }
+.monosocial-roundedgdgt:before { content: '\e884'; }
+
+.monosocial-etsy:before { content: '\e8ff'; }
+.monosocial-circleetsy:before { content: '\e89f'; }
+.monosocial-roundedetsy:before { content: '\e887'; }
+
+.monosocial-xing:before { content: '\e900'; }
+.monosocial-circlexing:before { content: '\e89b'; }
+.monosocial-roundedxing:before { content: '\e889'; }
+
+.monosocial-virb:before { content: '\e8f6'; }
+.monosocial-circlevirb:before { content: '\e89d'; }
+.monosocial-roundedvirb:before { content: '\e88a'; }
+
+.monosocial-rss:before { content: '\e901'; }
+.monosocial-circlerss:before { content: '\e8b8'; }
+.monosocial-roundedrss:before { content: '\e89a'; }
+ 
+.monosocial-bing:before { content: '\e8fd'; }
+.monosocial-circlebing:before { content: '\e8a3'; }
+.monosocial-roundedbing:before { content: '\e890'; }
+
+.monosocial-yelp:before { content: '\e8fe'; }
+.monosocial-circleyelp:before { content: '\e899'; }
+.monosocial-roundedyelp:before { content: '\e891'; }
+
+.monosocial-bebo:before { content: '\e8f5'; }
+.monosocial-circlebebo:before { content: '\e8ac'; }
+.monosocial-roundedbebo:before { content: '\e892'; }
+
+.monosocial-www:before { content: '\e903'; }
+.monosocial-circlewww:before { content: '\e8be'; }
+.monosocial-roundedwww:before { content: '\e894'; }
+
+.monosocial-blip:before { content: '\e8f7'; }
+.monosocial-circleblip:before { content: '\e895'; }
+.monosocial-roundedblip:before { content: '\e88f'; }
+
+.monosocial-qik:before { content: '\e92e'; }
+.monosocial-circleqik:before { content: '\e8b4'; }
+.monosocial-roundedqik:before { content: '\e8a6'; }
+
+.monosocial-icq:before { content: '\e902'; }
+.monosocial-circleicq:before { content: '\e8ba'; }
+.monosocial-roundedicq:before { content: '\e8aa'; }
+
+.monosocial-msn:before { content: '\e905'; }
+.monosocial-circlemsn:before { content: '\e8bf'; }
+.monosocial-roundedmsn:before { content: '\e8ad'; }
